@@ -30,7 +30,7 @@ import numpy
 from Cython.Distutils import build_ext
 
 setup(name='hdidx',
-      version='0.2.8',
+      version='0.2.8.2',
       # version='0.0.10052',
       author='WAN Ji',
       author_email='wanji@live.com',
@@ -75,7 +75,7 @@ setup(name='hdidx',
       install_requires=[
           "numpy      >= 1.6.0",
           "scipy      >= 0.9.0",
-          "bottleneck >= 0.8.0",
           "lmdb       >= 0.83",
+          "opencv-python",
       ],
       )

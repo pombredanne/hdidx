@@ -29,6 +29,7 @@ When a query vector comes, it will be mapped to hash codes by the same `Encoder`
 **HDIdx** can be installed by `pip`:
 
 ```bash
+[sudo] pip install cython
 [sudo] pip install hdidx
 ```
 
@@ -87,8 +88,8 @@ Please cite the following paper if you use this library:
 @article{wan2015hdidx,
   title={HDIdx: High-Dimensional Indexing for Efficient Approximate Nearest Neighbor Search},
   author={Wan, Ji and Tang, Sheng and Zhang, Yongdong and Li, Jintao and Wu, Pengcheng and Hoi, Steven CH},
-  journal={arXiv preprint arXiv:1510.01991},
-  year={2015}
+  journal={Neurocomputing },
+  year={2016}
 }
 ```
 
